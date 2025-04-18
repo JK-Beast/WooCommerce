@@ -1,0 +1,36 @@
+@media screen  and (max-width:1014px){
+    nav input{
+        height: 15px;
+        width: 250px;
+        border-radius: 20px;
+        border: none;
+        margin-right: 20px;
+        padding: 15px;
+        font-size: larger;
+        font-weight: 100;
+        
+    }
+    nav button{
+        height: 30px;
+        width: 70px; 
+    }
+    nav i{
+        color: white;
+        font-size: 20px;
+        top: 12px;
+    }
+    
+}
+
+@media screen and (max-width:690px) {
+
+    #Search{
+        display: flex;
+        margin-left: 25%;
+        width: 200px;
+    }
+    nav input{
+        display: none;
+    }
+    
+}

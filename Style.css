@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+header{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+    height: 70px;
+    align-items: center;
+}
+.logo h2{
+    color: white;
+    user-select: none;
+    
+}
+.logo p{
+    color: orange;
+    font-size: larger;
+    font-weight: 580;
+    font-style: italic;
+    user-select: none;
+}
+nav input{
+    height: 15px;
+    width: 450px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 20px;
+    padding: 15px;
+    font-size: larger;
+    font-weight: 100;
+    
+}
+input:focus{
+    outline: none;
+}
+
+#Search{
+    height: 15px;
+    width: 450px;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    font-size: larger;
+    font-weight: 100;
+    background-color: rgb(240, 203, 203);
+    margin-top: 30px;
+    margin-left: 20px;
+    display: none;
+    
+}
+
+
+nav button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: green;
+    border: 0;
+    border-radius: 10px;
+    font-size: medium;
+    margin-right: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+
+nav i{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    padding-top: 12px;
+    user-select: none;
+    position: absolute;
+    top: 8px;
+    cursor: pointer;
+}
+
+/* <------------------------------------------------- NavBar End --------------------------------------------------------------> */
+h1{
+    color: midnightblue;
+    text-align: center;
+    margin-top: 5%;
+    user-select: none;
+}
+.Productes{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+   
+}
+.Productes div{
+   width: 300px;
+   min-height: 450px;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   user-select: none;
+   
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+div img{
+    display: block;
+    width: 100%;
+    height: 280px;
+    user-select: none;
+    
+}
+
+.buy{
+    height: 30px;
+    width: 80px;
+    margin-left: 35%;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 0px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25%;
+    margin-top: 100px;
+    background-color: rgba(34, 24, 24, 0.899);
+}
+footer div{
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+footer h4{
+    margin-top: 10px;
+    font-weight: 300;
+    width: max-content;
+    color: white;
+}
+footer h3{
+    color: white;
+    margin-top: 40px;
+}
